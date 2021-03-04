@@ -1,10 +1,10 @@
 package bankAccount;
 
 public class BankAccount {
-	
 
-		private String name;
+		
 		private String accountNumber;
+		private String name;
 		private String email;
 		private String phone;
 		private String ssn;

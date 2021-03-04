@@ -1,5 +1,7 @@
 package bankAccount;
 
+import java.sql.*;
+
 public class bankAccountTest {
 public static void main(String args[]) {
 	
@@ -12,7 +14,9 @@ public static void main(String args[]) {
 	XinLi.setEmail("xin1306028@gmail.com");
 	XinLi.setSsn("99999");
 	
-	students.createUser(XinLi);
-	students.readUsers();
+	
+	students.insertUser(XinLi);
+	students.findUser(XinLi);
+	students.deleteUser(XinLi);
 }
 }
